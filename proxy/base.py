@@ -47,6 +47,7 @@ def get_proxy_v1(vars, base_train_df):
     # получаем матрицу коэффициентов. апроксимируем полиномами степени deg бызовые варианты
     base_coefs=get_base_coefs(base_train_df)
     df_res=init_proxy(vars, base_train_df)
+    
     # proxy_v1, идеи как у Никиты, код мой
     df_res.loc[0, 'x']=df_res.loc[0, 'total']
     for i in range(len(df_res)):
