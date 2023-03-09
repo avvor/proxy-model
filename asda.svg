@@ -1,0 +1,276 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="696pt" height="1181pt" viewBox="0.00 0.00 695.58 1181.42">
+<g id="graph0" class="graph" transform="translate(-4.518047541080762,864.0220037623199) scale(0.6597539553864477)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-1177.42 691.58,-1177.42 691.58,4 -4,4"/>
+<!-- ГСС -->
+<g id="node1" class="node" pointer-events="visible" data-name="ГСС">
+
+<ellipse fill="none" stroke="black" cx="49.66" cy="-202.42" rx="27" ry="18"/>
+<text text-anchor="middle" x="49.66" y="-198.22" font-family="Helvetica,Arial,sans-serif" font-size="14">ГСС</text>
+</g>
+<!-- Перьевые врезки в трубопроводы -->
+<g id="node2" class="node" pointer-events="visible" data-name="Перьевые врезки в трубопроводы">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-386.42" rx="148.8" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-382.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Перьевые врезки в трубопроводы</text>
+</g>
+<!-- ГСС&#45;&gt;Перьевые врезки в трубопроводы -->
+<g id="edge1" class="edge" data-name="ГСС-&gt;Перьевые врезки в трубопроводы">
+
+<path fill="none" stroke="black" d="M54.55,-220.51C62.83,-254.26 85.7,-326.4 135.33,-359.42 179.72,-388.95 237.4,-397.93 288.47,-398.64"/>
+<polygon fill="black" stroke="black" points="288.42,-402.14 298.42,-398.66 288.43,-395.14 288.42,-402.14"/>
+</g>
+<!-- Установка МКУ -->
+<g id="node3" class="node" pointer-events="visible" data-name="Установка МКУ">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-332.42" rx="71.28" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-328.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Установка МКУ</text>
+</g>
+<!-- ГСС&#45;&gt;Установка МКУ -->
+<g id="edge2" class="edge" data-name="ГСС-&gt;Установка МКУ">
+
+<path fill="none" stroke="black" d="M59.11,-219.47C71.95,-243.32 98.78,-285.9 135.33,-305.42 196.46,-338.04 276.14,-342.46 334.01,-340.1"/>
+<polygon fill="black" stroke="black" points="333.95,-343.61 343.77,-339.62 333.61,-336.62 333.95,-343.61"/>
+</g>
+<!-- Подключение ГШ &#160;к ГШ  -->
+<g id="node4" class="node" pointer-events="visible" data-name="Установка трехходовых кранов для \nприема очистных устройств на ГШ КГС" data-comment="Подключение ГШ  к ГШ">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-267.42" rx="172.36" ry="29.33"/>
+<text text-anchor="middle" x="411.45" y="-271.62" font-family="Helvetica,Arial,sans-serif" font-size="14">Установка трехходовых кранов для </text>
+<text text-anchor="middle" x="411.45" y="-254.82" font-family="Helvetica,Arial,sans-serif" font-size="14">приема очистных устройств на ГШ КГС</text>
+</g>
+<!-- ГСС&#45;&gt;Подключение ГШ &#160;к ГШ  -->
+<g id="edge3" class="edge" data-name="ГСС-&gt;Установка трехходовых кранов для \nприема очистных устройств на ГШ КГС" data-comment="ГСС-&gt;Подключение ГШ  к ГШ">
+
+<path fill="none" stroke="black" d="M73.73,-210.95C90.58,-216.9 114.11,-224.61 135.33,-229.42 172.99,-237.96 214.02,-244.87 252.62,-250.34"/>
+<polygon fill="black" stroke="black" points="252.09,-253.8 262.47,-251.71 253.05,-246.87 252.09,-253.8"/>
+</g>
+<!-- Подключение ГШ к коллектору КГС -->
+
+<!-- ГСС&#45;&gt;Подключение ГШ к коллектору КГС -->
+
+<!-- Установка скребковых кранов для \nприема очистных устройств на ГШ КГС -->
+
+<!-- ГСС&#45;&gt;Установка скребковых кранов для \nприема очистных устройств на ГШ КГС -->
+
+<!-- Подключение коллектора к коллектору -->
+<g id="node7" class="node" pointer-events="visible" data-name="Система подачи метанола" data-comment="Подключение коллектора к коллектору">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-94.42" rx="117.03" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-90.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Система подачи метанола</text>
+</g>
+<!-- ГСС&#45;&gt;Подключение коллектора к коллектору -->
+<g id="edge6" class="edge" data-name="ГСС-&gt;Система подачи метанола" data-comment="ГСС-&gt;Подключение коллектора к коллектору">
+
+<path fill="none" stroke="black" d="M62.27,-186.02C76.88,-166.83 103.9,-135.85 135.33,-121.42 182.37,-99.81 238.6,-91.62 287.93,-89.37"/>
+<polygon fill="black" stroke="black" points="287.95,-92.87 297.82,-89.01 287.7,-85.88 287.95,-92.87"/>
+</g>
+<!-- Прокладка лупинга коллектора КГС -->
+<g id="node5" class="node" pointer-events="visible" data-name="Прокладка лупинга коллектора КГС">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-202.42" rx="158.11" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-198.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Прокладка лупинга коллектора КГС</text>
+</g><g id="node8" class="node" pointer-events="visible" data-name="Подключение скважин переведенных в эксплуатационный фонд\nс нефтенных промыслов" data-comment="Прокладка лупинга коллектора КГС">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-29.42" rx="276.25" ry="29.33"/>
+<text text-anchor="middle" x="411.45" y="-33.62" font-family="Helvetica,Arial,sans-serif" font-size="14">Подключение скважин переведенных в эксплуатационный фонд</text>
+<text text-anchor="middle" x="411.45" y="-16.82" font-family="Helvetica,Arial,sans-serif" font-size="14">с нефтенных промыслов</text>
+</g>
+<!-- ГСС&#45;&gt;Прокладка лупинга коллектора КГС -->
+<g id="edge4" class="edge" data-name="ГСС-&gt;Прокладка лупинга коллектора КГС">
+
+<path fill="none" stroke="black" d="M77.12,-202.42C112.41,-202.42 177.84,-202.42 241.46,-202.42"/>
+<polygon fill="black" stroke="black" points="241.38,-205.92 251.38,-202.42 241.38,-198.92 241.38,-205.92"/>
+</g><g id="edge7" class="edge" data-name="ГСС-&gt;Подключение скважин переведенных в эксплуатационный фонд\nс нефтенных промыслов" data-comment="ГСС-&gt;Прокладка лупинга коллектора КГС">
+
+<path fill="none" stroke="black" d="M56.17,-184.88C66.47,-155.22 91.65,-95.66 135.33,-67.42 145.9,-60.58 157.17,-54.75 168.9,-49.78"/>
+<polygon fill="black" stroke="black" points="169.91,-53.14 177.91,-46.19 167.32,-46.64 169.91,-53.14"/>
+</g>
+<!-- Подключение коллектора к шлейфу КГС -->
+
+<!-- ГСС&#45;&gt;Подключение коллектора к шлейфу КГС -->
+
+<!-- Объединение УКПГ -->
+<g id="node6" class="node" pointer-events="visible" data-name="Объединение УКПГ">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-148.42" rx="85.76" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-144.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Объединение УКПГ</text>
+</g>
+<!-- ГСС&#45;&gt;Объединение УКПГ -->
+<g id="edge5" class="edge" data-name="ГСС-&gt;Объединение УКПГ">
+
+<path fill="none" stroke="black" d="M73.67,-193.62C90.5,-187.55 114.02,-179.81 135.33,-175.42 194.68,-163.18 262.42,-156.45 315.83,-152.76"/>
+<polygon fill="black" stroke="black" points="315.74,-156.28 325.49,-152.12 315.28,-149.29 315.74,-156.28"/>
+</g><g id="edge8" class="edge" data-name="ДКС-&gt;Замена СПЧ" data-comment="ГСС-&gt;Объединение УКПГ">
+
+<path fill="none" stroke="black" d="M58.01,-608.95C69.96,-635.02 96.28,-683.32 135.33,-705.42 200.43,-742.25 288.24,-744.24 346.98,-740.16"/>
+<polygon fill="black" stroke="black" points="347.12,-743.66 356.81,-739.39 346.57,-736.69 347.12,-743.66"/>
+</g><g id="node11" class="node" pointer-events="visible" data-name="Ввод доп. ГПА" data-comment="ГСС-&gt;Объединение УКПГ">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-678.42" rx="66.63" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-674.22" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ввод доп. ГПА</text>
+</g>
+<!-- Реконструкция МПК -->
+<g id="edge9" class="edge" data-name="ДКС-&gt;Ввод доп. ГПА" data-comment="Реконструкция МПК">
+
+<path fill="none" stroke="black" d="M66.06,-606.15C82,-620.42 108.32,-641.34 135.33,-651.42 199.38,-675.32 277.32,-680.98 333.88,-681.3"/>
+<polygon fill="black" stroke="black" points="333.74,-684.8 343.74,-681.3 333.73,-677.8 333.74,-684.8"/>
+</g>
+<!-- ГСС&#45;&gt;Реконструкция МПК -->
+
+<!-- Отключение не используемых шлейфов КГС (24 ед.) -->
+
+<!-- ГСС&#45;&gt;Отключение не используемых шлейфов КГС (24 ед.) -->
+
+<!-- Система подачи метанола (2 ед.) -->
+
+<!-- ГСС&#45;&gt;Система подачи метанола (2 ед.) -->
+
+<!-- Подключение скважин переведенных в эксплуатационный фонд  -->
+
+<!-- ГСС&#45;&gt;Подключение скважин переведенных в эксплуатационный фонд  -->
+
+<!-- ДКС -->
+<g id="node9" class="node" pointer-events="visible" data-name="ДКС">
+
+<ellipse fill="none" stroke="black" cx="49.66" cy="-591.42" rx="27" ry="18"/>
+<text text-anchor="middle" x="49.66" y="-587.22" font-family="Helvetica,Arial,sans-serif" font-size="14">ДКС</text>
+</g>
+<!-- Замена СПЧ -->
+<g id="node10" class="node" pointer-events="visible" data-name="Замена СПЧ">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-732.42" rx="56.81" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-728.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Замена СПЧ</text>
+</g>
+<!-- ДКС&#45;&gt;Замена СПЧ -->
+
+<!-- Замена СПЧ в ТДА -->
+<g id="node12" class="node" pointer-events="visible" data-name="Замена СПЧ в ТДА">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-624.42" rx="81.1" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-620.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Замена СПЧ в ТДА</text>
+</g>
+<!-- ДКС&#45;&gt;Замена СПЧ в ТДА -->
+<g id="edge10" class="edge" data-name="ДКС-&gt;Замена СПЧ в ТДА">
+
+<path fill="none" stroke="black" d="M76.83,-593.82C128.18,-598.53 244.18,-609.16 324.87,-616.57"/>
+<polygon fill="black" stroke="black" points="324.23,-620.02 334.51,-617.45 324.87,-613.05 324.23,-620.02"/>
+</g>
+<!-- замена ГТУ&#45;25НУ80.10 с двигателем ДУ80Л1 \nна ГТУ&#45;25П с двигателем ПС&#45;90ГП&#45;25 -->
+<g id="node13" class="node" pointer-events="visible" data-name="замена ГТУ-25НУ80.10 с двигателем ДУ80Л1 \nна ГТУ-25П с двигателем ПС-90ГП-25">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-559.42" rx="197.5" ry="29.33"/>
+<text text-anchor="middle" x="411.45" y="-563.62" font-family="Helvetica,Arial,sans-serif" font-size="14">замена ГТУ-25НУ80.10 с двигателем ДУ80Л1 </text>
+<text text-anchor="middle" x="411.45" y="-546.82" font-family="Helvetica,Arial,sans-serif" font-size="14">на ГТУ-25П с двигателем ПС-90ГП-25</text>
+</g>
+<!-- ДКС&#45;&gt;замена ГТУ&#45;25НУ80.10 с двигателем ДУ80Л1 \nна ГТУ&#45;25П с двигателем ПС&#45;90ГП&#45;25 -->
+<g id="edge11" class="edge" data-name="ДКС-&gt;замена ГТУ-25НУ80.10 с двигателем ДУ80Л1 \nна ГТУ-25П с двигателем ПС-90ГП-25">
+
+<path fill="none" stroke="black" d="M76.83,-589.09C109.86,-586.15 169.65,-580.83 229.58,-575.5"/>
+<polygon fill="black" stroke="black" points="229.61,-579.01 239.26,-574.64 228.99,-572.04 229.61,-579.01"/>
+</g><g id="node20" class="node" pointer-events="visible" data-name="Установка насосов-дозаторов \n для подачи поверхностно-активных веществ" data-comment="ДКС-&gt;замена ГТУ-25НУ80.10 с двигателем ДУ80Л1 \nна ГТУ-25П с двигателем ПС-90ГП-25">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-905.42" rx="202.9" ry="29.33"/>
+<text text-anchor="middle" x="411.45" y="-909.62" font-family="Helvetica,Arial,sans-serif" font-size="14">Установка насосов-дозаторов </text>
+<text text-anchor="middle" x="411.45" y="-892.82" font-family="Helvetica,Arial,sans-serif" font-size="14"> для подачи поверхностно-активных веществ</text>
+</g>
+<!-- Установка многосекционных ЦБК -->
+<g id="node14" class="node" pointer-events="visible" data-name="Установка многосекционных ЦБК">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-494.42" rx="146.47" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-490.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Установка многосекционных ЦБК</text>
+</g><g id="edge17" class="edge" data-name="Скважины-&gt;Установка насосов-дозаторов \n для подачи поверхностно-активных веществ" data-comment="Установка многосекционных ЦБК">
+
+<path fill="none" stroke="black" d="M98.07,-938.41C133.55,-934.66 184.46,-929.28 234.91,-923.96"/>
+<polygon fill="black" stroke="black" points="235.26,-927.44 244.84,-922.91 234.53,-920.48 235.26,-927.44"/>
+</g>
+<!-- ДКС&#45;&gt;Установка многосекционных ЦБК -->
+<g id="edge12" class="edge" data-name="ДКС-&gt;Установка многосекционных ЦБК">
+
+<path fill="none" stroke="black" d="M64.14,-575.75C79.5,-559.09 106.28,-533.51 135.33,-521.42 172.11,-506.11 213.96,-497.89 253.73,-493.77"/>
+<polygon fill="black" stroke="black" points="254.03,-497.26 263.65,-492.84 253.37,-490.29 254.03,-497.26"/>
+</g>
+<!-- Реконструкция ДКС ГПУ \n(инженерные сети и коммуникации) -->
+
+<!-- ДКС&#45;&gt;Реконструкция ДКС ГПУ \n(инженерные сети и коммуникации) -->
+<g id="edge18" class="edge" data-name="Скважины-&gt;Устройство подачи поверхностно-активных веществ" data-comment="ДКС-&gt;Реконструкция ДКС ГПУ \n(инженерные сети и коммуникации)">
+
+<path fill="none" stroke="black" d="M64.4,-925.75C79.59,-907.65 105.86,-880.39 135.33,-867.42 151.96,-860.1 169.69,-854.35 187.82,-849.87"/>
+<polygon fill="black" stroke="black" points="188.43,-853.33 197.38,-847.66 186.85,-846.51 188.43,-853.33"/>
+</g>
+<!-- Реконструкция электроприводного цеха ДКС -->
+<g id="node15" class="node" pointer-events="visible" data-name="Реконструкция электроприводного цеха ДКС">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-440.42" rx="196.87" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-436.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Реконструкция электроприводного цеха ДКС</text>
+</g><g id="node22" class="node" pointer-events="visible" data-name="Замена НКТ, модернизация ФА" data-comment="Реконструкция электроприводного цеха ДКС">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-786.42" rx="132" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-782.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Замена НКТ, модернизация ФА</text>
+</g>
+<!-- ДКС&#45;&gt;Реконструкция электроприводного цеха ДКС -->
+<g id="edge13" class="edge" data-name="ДКС-&gt;Реконструкция электроприводного цеха ДКС">
+
+<path fill="none" stroke="black" d="M57.01,-573.76C68.1,-545.81 93.84,-491.99 135.33,-467.42 156.46,-454.9 180.13,-446.31 204.48,-440.57"/>
+<polygon fill="black" stroke="black" points="205.21,-444 214.24,-438.46 203.72,-437.16 205.21,-444"/>
+</g><g id="edge19" class="edge" data-name="Скважины-&gt;Замена НКТ, модернизация ФА" data-comment="ДКС-&gt;Реконструкция электроприводного цеха ДКС">
+
+<path fill="none" stroke="black" d="M56.59,-925.4C67.22,-896.26 92.51,-839.42 135.33,-813.42 181.38,-785.45 239.95,-776.82 291.2,-775.95"/>
+<polygon fill="black" stroke="black" points="291.2,-779.45 301.18,-775.88 291.16,-772.45 291.2,-779.45"/>
+</g>
+<g id="node16" class="node" pointer-events="visible" data-name="Скважины" data-comment="ДКС-&gt;Реконструкция электроприводного цеха ДКС">
+
+<ellipse fill="none" stroke="black" cx="49.66" cy="-943.42" rx="49.83" ry="18"/>
+<text text-anchor="middle" x="49.66" y="-939.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Скважины</text>
+</g><g id="node17" class="node" pointer-events="visible" data-name="Установка КЛК" data-comment="ДКС-&gt;Реконструкция электроприводного цеха ДКС">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-1101.42" rx="71.28" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-1097.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Установка КЛК</text>
+</g><g id="edge14" class="edge" data-name="Скважины-&gt;Установка КЛК" data-comment="ДКС-&gt;Реконструкция электроприводного цеха ДКС">
+
+<path fill="none" stroke="black" d="M56.55,-961.56C67.12,-990.92 92.32,-1048.2 135.33,-1074.42 195.74,-1111.24 277.81,-1114.61 336.56,-1110.84"/>
+<polygon fill="black" stroke="black" points="336.76,-1114.33 346.48,-1110.11 336.25,-1107.35 336.76,-1114.33"/>
+</g><g id="node18" class="node" pointer-events="visible" data-name="Установка упровляющтий комплекс КЛК" data-comment="ДКС-&gt;Реконструкция электроприводного цеха ДКС">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-1047.42" rx="172.58" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-1043.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Установка упровляющтий комплекс КЛК</text>
+</g><g id="edge15" class="edge" data-name="Скважины-&gt;Установка упровляющтий комплекс КЛК" data-comment="ДКС-&gt;Реконструкция электроприводного цеха ДКС">
+
+<path fill="none" stroke="black" d="M64.07,-960.98C79.18,-979.31 105.55,-1007.19 135.33,-1020.42 163.87,-1033.09 195.69,-1041.07 227.26,-1045.92"/>
+<polygon fill="black" stroke="black" points="226.52,-1049.35 236.91,-1047.29 227.5,-1042.41 226.52,-1049.35"/>
+</g><g id="node19" class="node" pointer-events="visible" data-name="Перевод эксплуатационных скважин \nв поглощающие для утилизации жидкости" data-comment="ДКС-&gt;Реконструкция электроприводного цеха ДКС">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-982.42" rx="184.61" ry="29.33"/>
+<text text-anchor="middle" x="411.45" y="-986.62" font-family="Helvetica,Arial,sans-serif" font-size="14">Перевод эксплуатационных скважин </text>
+<text text-anchor="middle" x="411.45" y="-969.82" font-family="Helvetica,Arial,sans-serif" font-size="14">в поглощающие для утилизации жидкости</text>
+</g><g id="edge16" class="edge" data-name="Скважины-&gt;Перевод эксплуатационных скважин \nв поглощающие для утилизации жидкости" data-comment="ДКС-&gt;Реконструкция электроприводного цеха ДКС">
+
+<path fill="none" stroke="black" d="M97.7,-948.51C135.92,-952.66 192.23,-958.76 246.57,-964.65"/>
+<polygon fill="black" stroke="black" points="245.95,-968.1 256.26,-965.7 246.7,-961.14 245.95,-968.1"/>
+</g><g id="node21" class="node" pointer-events="visible" data-name="Устройство подачи поверхностно-активных веществ" data-comment="ДКС-&gt;Реконструкция электроприводного цеха ДКС">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-840.42" rx="229.24" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-836.22" font-family="Helvetica,Arial,sans-serif" font-size="14">Устройство подачи поверхностно-активных веществ</text>
+</g><!-- ЦДКС -->
+<g id="node23" class="node" pointer-events="visible" data-name="ЦДКС">
+
+<ellipse fill="none" stroke="black" cx="49.66" cy="-1155.42" rx="30.2" ry="18"/>
+<text text-anchor="middle" x="49.66" y="-1151.22" font-family="Helvetica,Arial,sans-serif" font-size="14">ЦДКС</text>
+</g>
+<!--  Реконструкция ЦДКС -->
+<g id="node24" class="node" pointer-events="visible" data-name=" Реконструкция ЦДКС" data-comment="Реконструкция ЦДКС">
+
+<ellipse fill="none" stroke="black" cx="411.45" cy="-1155.42" rx="97.9" ry="18"/>
+<text text-anchor="middle" x="411.45" y="-1151.22" font-family="Helvetica,Arial,sans-serif" font-size="14"> Реконструкция ЦДКС</text>
+</g>
+<!-- ЦДКС&#45;&gt; Реконструкция ЦДКС -->
+<!-- ЦДКС&#45;&gt; Реконструкция ЦДКС -->
+<g id="edge20" class="edge" data-name="ЦДКС-&gt; Реконструкция ЦДКС">
+
+<path fill="none" stroke="black" d="M80.11,-1155.42C128.1,-1155.42 225.52,-1155.42 302.19,-1155.42"/>
+<polygon fill="black" stroke="black" points="301.83,-1158.92 311.83,-1155.42 301.83,-1151.92 301.83,-1158.92"/>
+</g>
+
+</g>
+</svg>
