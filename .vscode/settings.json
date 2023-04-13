@@ -1,0 +1,17 @@
+ {
+    "python.terminal.activateEnvironment": true,
+    "python.linting.pylintPath": ".venv\\Scripts\\pylint",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "matbal-pkg",
+        // "--doctest-modules",
+        "--html=matbal-pkg\\test\\reports\\Report.html",
+        // "--css=spch_module\\reports\\dark.css",
+        "--self-contained-html",
+        "--plots",
+        // "--plt_dirname"
+
+        // "--capture=sys",
+    ],    
+}
