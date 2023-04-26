@@ -1,17 +1,14 @@
- {
-    "python.terminal.activateEnvironment": true,
-    "python.linting.pylintPath": ".venv\\Scripts\\pylint",
+{
+    // "workbench.colorTheme": "Visual Studio Dark",
     "python.testing.unittestEnabled": false,
+    "python.testing.cwd": ".",
+    // "python.envFile": "${workspaceFolder}/.env",
+    "python.defaultInterpreterPath": 
+    ".venv/bin/python",
+    "pythonTestExplorer.testFramework": "pytest",
+    "python.testing.pytestPath": ".venv/bin/pytest",
     "python.testing.pytestEnabled": true,
     "python.testing.pytestArgs": [
-        "matbal-pkg",
-        // "--doctest-modules",
-        "--html=matbal-pkg\\test\\reports\\Report.html",
-        // "--css=spch_module\\reports\\dark.css",
-        "--self-contained-html",
-        "--plots",
-        // "--plt_dirname"
-
-        // "--capture=sys",
-    ],    
+       "matbal-pkg/test"
+    ],
 }

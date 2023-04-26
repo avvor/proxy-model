@@ -1,11 +1,20 @@
-from mat_balance import MaterialBalance
-from proxy_instance import ProxyInstance
-from scipy.optimize import minimize
-from geneticalgorithm import geneticalgorithm as ga
+"""_summary_
+
+Returns:
+    _type_: _description_
+"""
+from typing import Any, Tuple
+
 import numpy as np
-import pandas as pd
-from typing import Tuple, Any
+from geneticalgorithm import geneticalgorithm as ga
+from scipy.optimize import minimize
+
+from .proxy_instance import ProxyInstance, ProxyInstanceSimple
+
+
 class SolverMatbal:
+    """_summary_
+    """
 
     def __init__(self,
         wgp:np.ndarray,
@@ -19,7 +28,18 @@ class SolverMatbal:
     
     
     def optimize(self,border_j1d_like_ones:np.ndarray,lower=None, upper=None, start=None, stop=None)->Tuple[ProxyInstance,Any]:
+        """_summary_
 
+        Args:
+            border_j1d_like_ones (np.ndarray): _description_
+            lower (_type_, optional): _description_. Defaults to None.
+            upper (_type_, optional): _description_. Defaults to None.
+            start (_type_, optional): _description_. Defaults to None.
+            stop (_type_, optional): _description_. Defaults to None.
+
+        Returns:
+            Tuple[ProxyInstance,Any]: _description_
+        """
         lower_value = 0 if lower is None else lower
         upper_value = 10 if upper is None else upper
 
@@ -42,11 +62,11 @@ class SolverMatbal:
         bnds = [
                 (0,0) if marker == 0 else (lower_value,upper_value)
             for marker in border_j1d_like_ones]
-        x0 = np.random.rand(border_j1d_like_ones.shape[0])
-        x0[np.where(border_j1d_like_ones==0)] = 0        
+        x_0 = np.random.rand(border_j1d_like_ones.shape[0])
+        x_0[np.where(border_j1d_like_ones==0)] = 0        
         sol = minimize(
             fun=fun,
-            x0=x0,
+            x0=x_0,
             method='Nelder-Mead',
             tol= 1e-3,
             options={'maxiter': 1e+8, 'disp': False},
@@ -57,7 +77,20 @@ class SolverMatbal:
             p_initial=p_initial)
         return res_mat_bal, sol
 
-    def optimize_ga(self,border_j1d_like_ones:np.ndarray,lower=None, upper=None, start=None, stop=None)->Tuple[ProxyInstance,Any]:
+    def optimize_ga(self,border_j1d_like_ones:np.ndarray,lower=None, upper=None, start=None, stop=None,
+                    **algortim_param):
+        """_summary_
+
+        Args:
+            border_j1d_like_ones (np.ndarray): _description_
+            lower (_type_, optional): _description_. Defaults to None.
+            upper (_type_, optional): _description_. Defaults to None.
+            start (_type_, optional): _description_. Defaults to None.
+            stop (_type_, optional): _description_. Defaults to None.
+
+        Returns:
+            _type_: _description_
+        """
         lower_value = 0 if lower is None else lower
         upper_value = 10 if upper is None else upper
 
@@ -80,27 +113,41 @@ class SolverMatbal:
         bnds = np.array([
                 [0,0] if marker == 0 else [lower_value,upper_value]
             for marker in border_j1d_like_ones])
-        x0 = np.random.rand(border_j1d_like_ones.shape[0])
-        x0[np.where(border_j1d_like_ones==0)] = 0        
-        algorithm_param = {'max_num_iteration': 2000,\
-                   'population_size':500,\
-                   'mutation_probability':.01,
-                   'elit_ratio': 0.001, #Было ,1
+        x_0 = np.random.rand(border_j1d_like_ones.shape[0])
+        x_0[np.where(border_j1d_like_ones==0)] = 0
+        alg_param_default = {'max_num_iteration': 3000,\
+                   'population_size':100,\
+                   'mutation_probability':0.1,\
+                   'elit_ratio': 0.01,\
                    'crossover_probability': 0.5,\
-                   'parents_portion': 0.002, #было ,3
+                   'parents_portion': 0.3,\
                    'crossover_type':'uniform',\
-                   'max_iteration_without_improv':200}
-        model=ga(function=fun,dimension=x0.shape[0],variable_type='real',variable_boundaries=bnds,
-                algorithm_parameters=algorithm_param)
+                   'max_iteration_without_improv':None}
+        
+        model=ga(function=fun,dimension=x_0.shape[0],variable_type='real',variable_boundaries=bnds,
+                algorithm_parameters=alg_param_default|algortim_param)
         model.run()
         return model
 
+    def optimize_simple(self, start=0,stop=24)->ProxyInstanceSimple:
+        """_summary_
 
+        Args:
+            start (int, optional): _description_. Defaults to 0.
+            stop (int, optional): _description_. Defaults to 24.
+
+        Returns:
+            ProxyInstanceSimple: _description_
+        """
+        y_all = self.rpr[start:stop,:].T
+        x_all = self.wgp[start:stop,:].cumsum(0).T
+        c00_all = np.array([np.polyfit(x,y,deg=1) for x,y in zip(x_all,y_all)])
+        return ProxyInstanceSimple(self.rpr[start],c00_all)
 
 
 
 if __name__=="__main__":
-    rpr = np.array(
+    rpr_all = np.array(
     [[600.,         600.,         600.,         600.        ],
      [531.05413987, 576.63881791, 572.94708307, 570.84510766],
      [454.69732107, 489.91255557, 506.21097239, 502.35642655],
@@ -125,7 +172,7 @@ if __name__=="__main__":
        [   0,    0,   0,   0,],
        [   0,    0,   0,   0,],
        [   0,    0,   0,   0,]])
-    rgip = np.array(
+    rgip_all = np.array(
         [[1010.,         1010.,         1010.,         1010.        ],
         [ 893.94113545,  970.6753435,   964.46092313,  960.92259792,],
         [ 650.72454578,  858.09637815,  892.35654945,  888.82252661,],
@@ -137,7 +184,7 @@ if __name__=="__main__":
         [   7.69835252,    7.7170737,     9.35367348,   15.23090031,],
         [   8.50282927,    8.64896416,    9.34308766,   13.50511891,],
         [   8.96310072,    9.17648347,    9.53450759,   12.32590822]])
-    solver = SolverMatbal(wgp_all, rpr, rgip) 
+    solver = SolverMatbal(wgp_all, rpr_all, rgip_all) 
     # for _ in range(10):к
     #     m_bal, sol = solver.optimize(np.ones((6)))
     #     print(sol.fun, sol.x)
